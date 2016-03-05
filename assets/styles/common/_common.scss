@@ -1,22 +1,14 @@
-html {
-	box-sizing: border-box;
-}
+html {}
 
 *,
 *:before,
-*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-	box-sizing: inherit;
-}
+*:after {}
 
 body {}
 
 blockquote, q {
-	quotes: "" "";
-
 	&:before,
-	&:after {
-		content: "";
-	}
+	&:after {}
 }
 
 a {
@@ -32,93 +24,47 @@ a {
 	}
 }
 
-hr {
-	background-color: $color__background-hr;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.5em;
-}
+hr {}
 
-ul, ol {
-	margin: 0 0 1.5em 3em;
-}
+ul, ol {}
 
-ul {
-	list-style: disc;
-}
+ul {}
 
-ol {
-	list-style: decimal;
-}
+ol {}
 
 li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-}
+li > ol {}
 
-dt {
-	font-weight: bold;
-}
+dt {}
 
-dd {
-	margin: 0 1.5em 1.5em;
-}
+dd {}
 
-img {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
-}
+img {}
 
-table {
-	margin: 0 0 1.5em;
-	width: 100%;
-}
+table {}
 
 .entry-meta,
 .meta,
-.pagination {
-	color: $color__text-light;
-	@include border(top);
-	@include border(bottom);
-}
+.pagination {}
 
-time.updated {
-	@include screen-reader-text;
-}
+time.updated {}
 
 .entry-content,
 .entry-summary,
 .comment-content {
 	ul,
-	ol {
-		margin-left: 0;
-	}
+	ol {}
 	li {
-		> ul {
-			margin-left: 1.25em;
-		}
-		> ol {
-			margin-left: 1.5em;
-		}
+		> ul {}
+		> ol {}
 	}
 
 	blockquote {
 		&.alignleft,
-		&.alignright {
-			@extend %blockquote;
-		}
-		> ul {
-			margin-left: 1.25em;
-		}
-		> ol {
-			margin-left: 1.5em;
-		}
-		&:not(.alignleft):not(.alignright) {
-			margin-left: -1.473684211em;
-		}
-		blockquote:not(.alignleft):not(.alignright) {
-			margin-left: 0;
-		}
+		&.alignright {}
+		> ul {}
+		> ol {}
+		&:not(.alignleft):not(.alignright) {}
+		blockquote:not(.alignleft):not(.alignright) {}
 	}
 }

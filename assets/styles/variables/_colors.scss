@@ -1,28 +1,27 @@
 /**
- * Colors are defined in _bootstrap-overrides.scss. Uncomment and change as desired.
+ * Color variables
  */
 
- @import "variable-overrides";
+$color__primary: #509EA3;
+$color__secondary: #E53634;
+$color__tertiary: #1C2A42;
+$color__tertiary2: #AFBB87;
+$color__highlight: #EFE4A6;
 
-// $color__primary: #509EA3;
-// $color__secondary: #E53634;
-// $color__tertiary: #1C2A42;
-// $color__tertiary2: #AFBB87;
-// $color__highlight: #EFE4A6;
+$color__primary-light: lighten($color__primary, 20%);
+$color__secondary-light: #EB6361;
+$color__tertiary-light: #293B5A;
+$color__hightlight-light: #EAE0CC;
 
-// $color__primary-light: lighten($color__primary, 20%);
-// $color__secondary-light: #EB6361;
-// $color__tertiary-light: #293B5A;
-// $color__hightlight-light: #EAE0CC;
+$color__black: #111;
+$color__white: #fff;
 
-// $color__black: #111;
-// $color__light-black: lighten($color__black, 13.5%);
-// $color__darkest-grey: $color__black;
-// $color__dark-grey: lighten($color__black, 20%);
-// $color__mid-grey: lighten($color__black, 33.5%);
-// $color__light-grey: lighten($color__black, 46.7%);
-// $color__lightest-grey: lighten($color__black, 93.5%);
-// $color__white: #fff;
+$color__light-black: lighten($color__black, 13.5%);
+$color__darkest-grey: $color__black;
+$color__dark-grey: lighten($color__black, 20%);
+$color__mid-grey: lighten($color__black, 33.5%);
+$color__light-grey: lighten($color__black, 46.7%);
+$color__lightest-grey: lighten($color__black, 93.5%);
 
 $white: $color__white;
 $black: $color__black;
