@@ -1,0 +1,57 @@
+/*
+Theme Name: Activist Network Theme Child Theme v2
+Theme URI: https://plan.glocal.coop/projects/anp-network-main-theme
+Author: Pea, Glocal
+Author URI: http://glocal.coop
+Description: Child theme starter for ANP main network site
+Version: 2.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: anp-network-main
+Template: anp-network-main
+Tags:
+
+*/
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+@import "variables/variables";
+@import "common/mixins";
+@import "common/extends";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "common/common";
+
+/*--------------------------------------------------------------
+# Structure
+--------------------------------------------------------------*/
+@import "layout/layout";
+
+/*--------------------------------------------------------------
+# Pages
+--------------------------------------------------------------*/
+@import "pages/pages";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/components";
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+@import "plugins/plugins";
+
+/*--------------------------------------------------------------
+# Theme
+--------------------------------------------------------------*/
+@import "theme/theme";
+
+/*--------------------------------------------------------------
+# Hacks
+--------------------------------------------------------------*/
+@import "common/shame";
+
