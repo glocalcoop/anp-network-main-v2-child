@@ -12,16 +12,10 @@ blockquote, q {
 }
 
 a {
-	color: $color__link;
-
 	&:hover,
-	&:focus {
-		color: $color__link-hover;
-	}
+	&:focus {}
 
-	&:visited {
-		color: $color__link-visited;
-	}
+	&:visited {}
 }
 
 hr {}
