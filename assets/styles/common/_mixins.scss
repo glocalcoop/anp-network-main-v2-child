@@ -97,7 +97,7 @@
 /**
  * Navigation
  */
-@mixin tab-nav($color: $white, $color__background-body: $color__default, $active-color: $white, $active-bg-color: $color__primary, $border-color: rgba(0,0,0,.1)) {
+@mixin tab-nav($color: $color__white, $color__background-body: $color__default, $active-color: $color__white, $active-bg-color: $color__primary, $border-color: rgba(0,0,0,.1)) {
   ul {
     @include inline-list();
     width: 100%;
@@ -129,7 +129,7 @@
   
 }
 
-@mixin flex-tab-nav($color: $white, $bg-color: $color__default, $active-color: $white, $active-bg-color: $color__primary, $border-color: rgba(0,0,0,.1), $direction: row, $wrap: wrap, $align: space-between) {
+@mixin flex-tab-nav($color: $color__white, $bg-color: $color__default, $active-color: $color__white, $active-bg-color: $color__primary, $border-color: rgba(0,0,0,.1), $direction: row, $wrap: wrap, $align: space-between) {
   ul {
     @include inline-flex-list($direction, $wrap, $align);
     li {
@@ -185,7 +185,7 @@
 /**
  * Buttons
  */
-@mixin button($font-size: $small, $color: $white, $bg-color: $color__default) {
+@mixin button($font-size: $small, $color: $color__white, $bg-color: $color__default) {
 
   transition: all 0.25s ease;
   @include font-size($font-size);
@@ -266,7 +266,7 @@
 }
 
 
-@mixin button-icon($icon: cog, $color: $white, $background-color: $color__default) {
+@mixin button-icon($icon: cog, $color: $color__white, $background-color: $color__default) {
   @include button($color: $color, $color__background-body: $background-color);
   
   &:before {
@@ -289,7 +289,7 @@
   }
 }
 
-@mixin badge($color: $white, $bgcolor: $color__default, $font-size: $tiny) {
+@mixin badge($color: $color__white, $bgcolor: $color__default, $font-size: $tiny) {
   @include font-size($font-size);
   background-color: $bgcolor;
   border-radius: 10px;
