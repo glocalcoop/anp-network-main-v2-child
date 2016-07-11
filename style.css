@@ -4,7 +4,7 @@ Theme URI: https://github.com/glocalcoop/anp-network-main-v2-child
 Author: Pea, Glocal
 Author URI: http://glocal.coop
 Description: Child theme starter for ANP main network site
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: anp-network-main-child
@@ -18,6 +18,14 @@ Tags:
 /**
  * Color variables
  */
+/**
+ * Uncomment and change as desired.
+ */
+/**
+ * Can be replaced with another color palette
+ * See: theme directory for sample palettes
+ */
+/* Social Media - http://www.paulund.co.uk/social-media-colours */
 /**
  * Elements
  */

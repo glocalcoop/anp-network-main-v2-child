@@ -5,7 +5,7 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 
 Requires at least: 4.0
 Tested up to: 4.4
-Stable tag: 1.0.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,8 @@ Activist Network Theme Child includes support for Jetpack's Infinite Scroll and 
 
 == Changelog ==
 
+= 1.0.3 - July 11, 2016 =
+* [Feature #1468] - Added default screenshot.
 
 == Credits ==
 
